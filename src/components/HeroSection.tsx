@@ -16,10 +16,11 @@ const HeroSection = () => {
         </p>
         
         <Button 
-          className="bg-mindai-purple hover:bg-mindai-purple/90 text-white px-8 py-6 rounded-md text-lg font-medium"
+          className="bg-mindai-purple hover:bg-mindai-purple/90 text-white px-8 py-6 rounded-md text-lg font-medium flex flex-col items-center"
           onClick={() => window.open('https://app.mindai.network', '_blank')}
         >
-          Tokenise your AI Agent
+          <span>Tokenise your AI Agent</span>
+          <span className="text-sm" style={{ color: 'hsl(var(--accent))' }}>Prototype</span>
         </Button>
       </div>
       
